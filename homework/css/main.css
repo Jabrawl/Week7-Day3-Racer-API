@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+}
+
+
+.nav-link {
+    color: black;
+    font-size: 23px;
+}
+.navbar-brand {
+    color: black;
+    font-size: 30px;
+}
+
+#navbarNav {
+    padding-left: 25px;
+}
+
+.navbar {
+    height: 80px;
+ }
+
+.container-fluid {
+    padding-left: 20px;
+}
+
+.main-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient(to right, rgb(250, 204, 0), rgb(226, 56, 4)), url("");
+}
+
+#formId {
+    margin-top: 100px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.standing-form {
+    width: 15%;
+    height: 50px;
+    margin-right: 1%;
+    border-radius: 0;
+}
+
+.get-standings {
+    width: 25%;
+    height: 65px;
+    background-color: #c25f51;
+    border-radius: 50px;
+    border: solid rgb(53, 51, 51) 2px;
+    font-size: 170%;
+    color:white
+}
+
+.driver-api {
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    
+}
+
+.headline {
+    font-size: 25px;
+    font-weight: bold;
+}   
+
+.driver-stats {
+    font-size: 19px;
+    padding: 0 30px;
+}
